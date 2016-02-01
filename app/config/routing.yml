@@ -1,0 +1,6 @@
+appartoo_carnet:
+    resource: "@AppartooCarnetBundle/Resources/config/routing.yml"
+    prefix:   /
+
+fos_user:
+    resource: "@AppartooCarnetBundle/Resources/config/routing/all.xml"

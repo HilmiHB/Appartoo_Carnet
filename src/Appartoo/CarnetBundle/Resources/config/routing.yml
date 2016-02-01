@@ -1,0 +1,9 @@
+appartoo_carnet_homepage:
+    path:     /
+    defaults: { _controller: AppartooCarnetBundle:Carnet:index }
+appartoo_carnet_liste:
+    path:     /contact
+    defaults: { _controller: AppartooCarnetBundle:Carnet:contact}
+appartoo_carnet_aj:
+    path:     /contact/ajout
+    defaults: { _controller: AppartooCarnetBundle:Carnet:contactAjout}
